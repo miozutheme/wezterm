@@ -1,0 +1,5 @@
+It is recommended that you place your custom scheme in a directory named $HOME/.config/wezterm/colors if you're on a POSIX system.
+
+On a Windows system, wezterm will search for schemes in a directory named colors that is in the same directory as the wezterm.exe.
+
+Read more at official docs https://wezfurlong.org/wezterm/config/appearance.html

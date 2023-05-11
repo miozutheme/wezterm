@@ -1,0 +1,38 @@
+# Miozu theme
+[colors]
+ansi = [
+"#232733",
+"#EB3137",
+"#6DD672",
+"#E8D176",
+"#83D2FC",
+"#C974E6",
+"#40FFE2",
+"#F3F4F7"
+]
+background = "#2C3040"
+brights = [
+"#232733",
+"#EB3137",
+"#6DD672",
+"#E8D176",
+"#83D2FC",
+"#C974E6",
+"#40FFE2",
+"#F3F4F7"
+]
+cursor_bg = "#83D2FC"
+cursor_border = "#83D2FC"
+cursor_fg = "#232733"
+foreground = "#F3F4F7"
+scrollbar_thumb = '#3E4359'
+selection_bg = "#565E78"
+selection_fg = "#FAFDFB"
+split = '#3E4359'
+
+[colors.indexed]
+
+[metadata]
+name = 'Miozu'
+origin_url = 'https://github.com/miozutheme/wezterm'
+author = 'Nicholas Glazer <glazer.nicholas@gmail.com'
