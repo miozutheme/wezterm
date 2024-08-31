@@ -1,7 +1,32 @@
-# Miozu theme
+# Miozu | Wezterm
+# -----
+# URL: schemes.miozu.com
+# Author: Nicholas Glazer <glazer.nicholas@gmail.com>
+# Repo: https://github.com/miozutheme/wezterm
+# Last modified: Aug 30, 2024
+# -----
+
+# Color definitions
+# miozu00 = "#232733" # [cursor_fg]
+# miozu01 = "#2C3040" # [background]
+# miozu02 = "#3E4359" # [selection_bg]
+# miozu03 = "#565E78" # [split]
+# miozu04 = "#737E99" # [ansi]
+# miozu05 = "#D0D2DB" # [brights]
+# miozu06 = "#F3F4F7" # [ansi, brights, foreground]
+# miozu07 = "#FAFDFB" # [selection_fg]
+# yellow  = "#E8D176" # [ansi, brights]
+# cyan    = "#40FFE2" # [ansi, brights]
+# orange  = "#FF9837" # [compose_cursor]
+# green   = "#6DD672" # [ansi, brights]
+# peach   = "#FF9982" # [brights, scrollbar_thumb]
+# magenta = "#C974E6" # [ansi, brights]
+# blue    = "#83D2FC" # [ansi, brights, cursor_bg, cursor_border]
+# red     = "#EB3137" # [ansi, brights]
+
 [colors]
 ansi = [
-"#232733",
+"#737E99",
 "#EB3137",
 "#6DD672",
 "#E8D176",
@@ -10,29 +35,78 @@ ansi = [
 "#40FFE2",
 "#F3F4F7"
 ]
-background = "#2C3040"
 brights = [
-"#232733",
+"#FF9982",
 "#EB3137",
 "#6DD672",
 "#E8D176",
 "#83D2FC",
 "#C974E6",
 "#40FFE2",
-"#F3F4F7"
+"#D0D2DB"
 ]
+
+background = "#2C3040"
+foreground = "#F3F4F7"
+
+compose_cursor = "#FF9837" # appears when one of the dead keys are pressed
 cursor_bg = "#83D2FC"
 cursor_border = "#83D2FC"
 cursor_fg = "#232733"
-foreground = "#F3F4F7"
-scrollbar_thumb = '#3E4359'
-selection_bg = "#565E78"
+
+scrollbar_thumb = '#FF9982'
+
+selection_bg = "#3E4359"
 selection_fg = "#FAFDFB"
-split = '#3E4359'
+
+split = '#565E78'
 
 [colors.indexed]
 
+[colors.tab_bar]
+background = "#232733"
+
+[colors.tab_bar.active_tab]
+bg_color = "#2C3040"
+fg_color = "#FF9837"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#3E4359"
+fg_color = "#737E99"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#565E78"
+fg_color = "#D0D2DB"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.new_tab]
+bg_color = "#232733"
+fg_color = "#FF9982"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#565E78"
+fg_color = "#D0D2DB"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
 [metadata]
+author = 'Nicholas Glazer <glazer.nicholas@gmail.com'
 name = 'Miozu'
 origin_url = 'https://github.com/miozutheme/wezterm'
-author = 'Nicholas Glazer <glazer.nicholas@gmail.com'
